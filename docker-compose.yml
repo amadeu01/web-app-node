@@ -10,7 +10,7 @@ services:
                 depends_on:
                         - mysql
                 environment:
-                  DATABASE_URL: mysql://hades:webapp@mysql/webapp
+                  DATABASE_URL: mysql://hades:webapp@mysql/webappdb
                   DB_PASSWORD: webapp
                   DB_USERNAME: webapp
                   DB_PASSWORD: webapp
